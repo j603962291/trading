@@ -1,0 +1,118 @@
+.table-container{
+  .table-title{
+    height: 60px;
+    width: 100%;
+    background: #F7F9FB;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:0 36px 0 33px ;
+    box-sizing: border-box;
+    tr{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      .text-left{
+        color: #999;
+      }
+      th{
+        font-size: 13px;
+        color: #000;
+        line-height: 60px;
+        flex: 1;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+      }
+      th:nth-of-type(1){
+        flex: 1.5;
+        justify-content: flex-start;
+      }
+      th:nth-of-type(7){
+        flex: 1.5;
+        justify-content: center;
+      }
+    }
+
+  }
+  .coin-list{
+    width: 1357px;
+    tr{
+      display: flex;
+      justify-content: space-between;
+      padding:0 36px 0 33px ;
+      box-sizing: border-box;
+      align-items: center;
+      height: 80px;
+      td{
+        font-size: 16px;
+        height: 80px;
+        border-bottom:none;
+        line-height: 80px;
+        flex: 1;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+
+      }
+      td:nth-of-type(1){
+        flex: 1.5;
+        justify-content: flex-start;
+
+      }
+      td:nth-of-type(7){
+        flex: 1.5;
+        justify-content: flex-end;
+      }
+    }
+    .operation{
+      //width: 115px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .del{
+        font-size: 14px;
+        color: #3078FF;
+        cursor: pointer;
+      }
+      .btn{
+        padding: 7px 14px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        background-color: transparent;
+        font-weight: bold;
+        margin: 0 4px;
+      }
+      .recharge{
+        border: 1px solid #0A6FF6;
+        color: #0A6FF6;
+      }
+      .withdraw{
+        border: 1px solid #E5E5E5;
+        color: #333;
+
+      }
+    }
+  }
+}
+.empty-block{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+.text{
+  text-align: center;
+  font-size: 14px;
+  color: #B3B3B3;
+  margin-top: 13px;
+  cursor: grab;
+}
+}
